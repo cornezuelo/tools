@@ -13,18 +13,16 @@ PHP Tools
 - URL Decode
 - UTF8 Encode
 - UTF8 Decode
-
-# TODO Actions
 - parse_str
 - strip_tags
 - strlen
 - strrev
 - nl2br
-- addslashes
-- stripslashes
-- crc32
-- md5
-- sha1
-- crypt
+- Add Slashes
+- Strip Slashes
+- CRC32
+- MD5
+- SHA1
+- Crypt
 - strtotime
 - strtotime to date 
