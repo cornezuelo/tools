@@ -14,7 +14,15 @@ TODO LIST
 - strtotime
 - strtotime to date 
 -->
-<?php include 'autoloader.php';  ?>
+<?php 
+include 'autoloader.php';  
+if (empty($_REQUEST['charset_from'])) {
+	$_REQUEST['charset_from'] = 'UTF-8';
+}
+if (empty($_REQUEST['charset_to'])) {
+	        $_REQUEST['charset_to'] = '';
+}
+?>
 <html>
 <head>        
 	<title>TOOLS</title>	
