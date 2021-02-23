@@ -16,7 +16,7 @@ class PwdGenAction extends ActionAbstract {
 	public $label='Strong Password Gen';		
 	
 	public static function execute($input) {		
-		return self::generateStrongPassword();
+		return self::generateStrongPassword(16, false, 'lud');
 	}
 	
 	private static function generateStrongPassword($length = 16, $add_dashes = false, $available_sets = 'luds')
